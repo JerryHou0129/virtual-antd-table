@@ -9,4 +9,7 @@ const vComponents = React.useMemo(() => {
     isViewAll: isViewAllDetails
   })
 }, [dataSource, isViewAllDetails])
+
+<Table scroll={{y: 720}}, components={vComponents}>
+</Table>
 ```
