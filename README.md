@@ -2,7 +2,7 @@
 
 # Usage
 
-```typescript
+```tsx
 const vComponents = React.useMemo(() => {
   return VList({
     dataSource,
@@ -10,6 +10,5 @@ const vComponents = React.useMemo(() => {
   })
 }, [dataSource, isViewAllDetails])
 
-<Table scroll={{y: 720}}, components={vComponents}>
-</Table>
+<Table scroll={{y: 720}}, components={vComponents} />
 ```
