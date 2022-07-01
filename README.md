@@ -10,5 +10,5 @@ const vComponents = React.useMemo(() => {
   })
 }, [dataSource, isViewAllDetails])
 
-<Table scroll={{y: 720}}, components={vComponents} />
+<Table scroll={{ y: 720 }}, components={vComponents} />
 ```
